@@ -78,12 +78,16 @@ body.home .page-header {display:none;}
 
 /* Blog */
 
-body.home .blog-item {
+body.home .blog-item {}
+
+body.home .blog-link {
 display:block;
 height:0px;
-padding-bottom:33.333333333%; 
+padding-bottom:99.99%; 
 background-color: rgba(255, 255, 255, 0.5);
 } 
+
+body.home .blog-link.Twitter {padding-bottom:50%;}
 
 /* ==========================================================================
    Sidebar
