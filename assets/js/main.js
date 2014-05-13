@@ -22,7 +22,12 @@ var Roots = {
   // All pages
   common: {
     init: function() {
-      // JavaScript to be fired on all pages
+      
+      $('.banner').affix({
+	      offset: {
+		      top: 50
+		   }
+		});
       
     }
   },
