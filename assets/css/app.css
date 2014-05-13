@@ -16,7 +16,7 @@ body { }
 .row-listen {background:transparent url(../img/bg4.jpg) top center no-repeat;}
 .row-slider, .row-blog, .row-about, .row-listen {margin-bottom:0px!important; background-size: cover; background-attachment: fixed;}
 
-.affix {position:fixed!important;}
+/* .banner.affix {position:fixed!important; top:30px!important; } */
 
 /* ==========================================================================
    Header
@@ -24,9 +24,6 @@ body { }
 
 .banner {
 z-index: 1000;
-bottom: 0px;
-position: absolute;
-width: 100%;
 }
 
 

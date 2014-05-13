@@ -10,9 +10,9 @@
   <?php
     do_action('get_header');
     // Use Bootstrap's navbar if enabled in config.php
-    if (!is_page('home')) {
+    //if (!is_page('home')) {
       get_template_part('templates/header-top-navbar');
-    }
+    //}
   ?>
 
   <div class="wrap container-fluid" role="document">
