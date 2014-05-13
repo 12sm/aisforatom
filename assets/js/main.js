@@ -25,7 +25,7 @@ var Roots = {
       
       $('.banner').affix({
 	      offset: {
-		      top: 50
+		      top: 600
 		   }
 		});
       
