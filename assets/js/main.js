@@ -38,13 +38,11 @@ var Roots = {
       
       var $container = $('.masonry');
 
-    $container.imagesLoaded(function () {
         $container.masonry({
             itemSelector: '.blog-item',
             columnWidth: '.blog-item',
             transitionDuration: 0
         });
-    });
       
     }
   },
