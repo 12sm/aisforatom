@@ -14,8 +14,8 @@ body {font-family: "proxima-nova"!important;}
 .row-blog {background:transparent url(../img/bg2.jpg) top center no-repeat;}
 .row-about {background:transparent url(../img/bg3.jpg) top center no-repeat;}
 .row-listen {background:transparent url(../img/bg4.jpg) top center no-repeat;}
-.row-slider, .row-blog, .row-about, .row-listen {margin-bottom:0px!important; background-size: cover; background-attachment: fixed;}
-.row-blog, .row-about, .row-listen {padding:10% 0px;}
+.row-slider, .row-blog, .row-about, .row-listen {margin-bottom:0px!important; background-size: cover; background-attachment: fixed; padding:10% 0px;}
+.row-blog, .row-about, .row-listen {}
 
 /* .banner.affix {position:fixed!important; top:30px!important; } */
 
