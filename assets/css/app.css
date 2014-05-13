@@ -9,12 +9,12 @@
 
 body { }
 
-.row-slider, .row-blog, .row-about, .row-listen {margin-bottom:0px; background-size: cover; background-attachment: fixed;}
 
 .row-slider {background:transparent url(../img/bg1.jpg) top center no-repeat;}
 .row-blog {background:transparent url(../img/bg2.jpg) top center no-repeat;}
 .row-about {background:transparent url(../img/bg3.jpg) top center no-repeat;}
 .row-listen {background:transparent url(../img/bg4.jpg) top center no-repeat;}
+.row-slider, .row-blog, .row-about, .row-listen {margin-bottom:0px!important; background-size: cover; background-attachment: fixed;}
 
 
 /* ==========================================================================
