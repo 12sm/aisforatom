@@ -29,6 +29,12 @@ body { }
 
 .content { }
 
+.col {
+max-width: 1400px;
+margin: 0px auto;
+float: none;	
+}
+
 
 
 /* ==========================================================================
@@ -40,6 +46,7 @@ body { }
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
 
+body.home .page-header {display:none;}
 
 
 /* ==========================================================================
