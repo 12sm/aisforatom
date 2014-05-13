@@ -62,12 +62,27 @@ float: none;
 body.home .page-header {display:none;}
 
 
+
+
+/* ==========================================================================
+   Homepage
+   ========================================================================== */
+   
 /* LayerSlider */
 
 .row-slider h1,
 .row-slider h2,
 .row-slider h3,
 .row-slider h4 {color:#fff;}
+
+
+/* Blog */
+
+body.home .blog-item {
+display:block;
+height:0px;
+padding-bottom:33.333333333%; 
+} 
 
 /* ==========================================================================
    Sidebar
