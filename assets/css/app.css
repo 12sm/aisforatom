@@ -9,7 +9,7 @@
 
 body {font-family: "proxima-nova"!important;}
 
-
+.wrap {margin-top:50px;}
 .row-slider {background:transparent url(../img/bg1.jpg) top center no-repeat;}
 .row-blog {background:transparent url(../img/bg2.jpg) top center no-repeat;}
 .row-about {background:transparent url(../img/bg3.jpg) top center no-repeat;}
@@ -29,11 +29,12 @@ h3, h4 {font-weight:700!important;}
 
 .banner {
 z-index: 1000;
-position:fixed;
-width:100%;
+position: fixed;
+width: 100%;
+top: 0px;
 }
 
-
+body.logged-in .banner {top:30px;}
 
 /* ==========================================================================
    Content
