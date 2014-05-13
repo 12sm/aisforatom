@@ -35,6 +35,17 @@ var Roots = {
   home: {
     init: function() {
       // JavaScript to be fired on the home page
+      
+      var $container = $('.masonry');
+
+    $container.imagesLoaded(function () {
+        $container.masonry({
+            itemSelector: '.blog-item',
+            columnWidth: '.blog-item',
+            transitionDuration: 0
+        });
+    });
+      
     }
   },
   // About us page, note the change from about-us to about_us.
