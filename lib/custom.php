@@ -2,7 +2,7 @@
 
 define( 'UPLOADS', ''.'assets' );
 
-/ Get URL of first image in a post
+// Get URL of first image in a post
 function catch_that_image($atts) {
  extract( shortcode_atts( array(
     'id' => '',
