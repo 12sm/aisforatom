@@ -61,6 +61,13 @@ float: none;
 body.home .page-header {display:none;}
 
 
+/* LayerSlider */
+
+.row-slider h1,
+.row-slider h2,
+.row-slider h3,
+.row-slider h4 {color:#fff;}
+
 /* ==========================================================================
    Sidebar
    ========================================================================== */
