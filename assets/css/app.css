@@ -45,7 +45,7 @@ body.logged-in .banner {top:30px;}
 
 .col {
 max-width: 85%;
-margin: 0px auto;
+margin: 0px auto!important;
 float: none;
 }
 
