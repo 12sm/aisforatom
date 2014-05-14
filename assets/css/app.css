@@ -112,8 +112,9 @@ font-size: 25px;
 }
 
 body.home .blog-link.Twitter {padding: 10px 10px 48.5% 10px; background-color: rgba(255, 255, 255, 0.8);}
+body.home .blog-link.Twitter:hover {background-color: rgba(255, 255, 255, 1);}
 body.home .blog-item-container .Twitter .post-footer {border-bottom: 75px solid #00aced;}
-body.home .blog-item-container .Twitter .caption {font-size:19px; color:#000;}
+body.home .blog-item-container .Twitter .caption {font-size:16px; color:#000;}
 
 
 body.home .blog-link.Instagram {background-color:transparent;}
@@ -132,7 +133,7 @@ top: 0px;
 padding: 15px;
 }
 
-body.home .blog-item-container .Instagram:hover .caption {opacity: 0.5}
+body.home .blog-item-container .Instagram:hover .caption {opacity: 0.8}
 
 /* ==========================================================================
    Sidebar
