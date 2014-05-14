@@ -90,6 +90,8 @@ body.home .blog-link {
 display:block;
 } 
 
+body.home .blog-link:hover {text-decoration:none; color: #000;}
+
 body.home .blog-item-container {margin: 15px 0px!important;}
 
 body.home .blog-item-container .post-footer {
