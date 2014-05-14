@@ -93,7 +93,20 @@ display:block;
 body.home .blog-item-container {margin: 15px 0px!important;}
 
 body.home .blog-link.Twitter {padding: 10px 10px 48.5% 10px; background-color: rgba(255, 255, 255, 0.8);}
-body.home .blog-link.Instagra {background-color:transparent;}
+body.home .blog-link.Instagram {background-color:transparent;}
+
+body.home .blog-link.Instagram .caption {
+width:100%;
+display:block;
+opacity:0;
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+transition-duration: 0.4s;
+background:#fff;	
+}
+
+body.home .blog-link.Instagram:hover .caption {opacity: 0.5}
 
 /* ==========================================================================
    Sidebar
