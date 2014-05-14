@@ -175,6 +175,8 @@ body.home .blog-item-container .Instagram:hover .caption {opacity: 0.8}
 .row-listen h1 {color:#fff;}
 .row-listen p {color:#ccc;}
 
+.row-listen .player {text-align:center;}
+
 
 /* ==========================================================================
    About
