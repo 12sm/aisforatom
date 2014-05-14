@@ -63,6 +63,11 @@ background: url(../img/brand.jpg) top left scroll no-repeat;
 padding-left: 60px;
 }
 
+nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+color: #ccc;
+background-color: transparent;
+}
+
 /* ==========================================================================
    Content
    ========================================================================== */
@@ -109,6 +114,8 @@ body.home .blog-item {}
 
 body.home .blog-link {
 display:block;
+height:0px;
+padding-bottom:100%%; 
 } 
 
 body.home .blog-link:hover {text-decoration:none; color: #000;}
@@ -132,8 +139,15 @@ margin: 40px 0px 0px -32px;
 font-size: 25px;
 }
 
-body.home .blog-link.Twitter {padding: 10px 10px 48.5% 10px; background-color: rgba(255, 255, 255, 0.8);}
-body.home .blog-link.Twitter:hover {background-color: rgba(255, 255, 255, 1);}
+body.home .blog-link.Twitter {
+padding: 10px 10px 48.5% 10px;
+background-color: rgba(255, 255, 255, 0.8);
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+transition-duration: 0.4s;
+}
+body.home .blog-link.Twitter:hover {background-color: rgba(255, 255, 255, 0.9);}
 body.home .blog-item-container .Twitter .post-footer {border-bottom: 75px solid #00aced;}
 body.home .blog-item-container .Twitter .caption {font-size:16px; color:#313131;}
 
@@ -214,13 +228,12 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 786px) {
 
-.row-slider, .row-blog, .row-about, .row-listen {min-height: 800px;}
+.navbar-nav {
+float: right;
+margin: 0;
+}
 
-body.home .blog-link {
-display:block;
-height:0px;
-padding-bottom:100%%; 
-} 
+.row-slider, .row-blog, .row-about, .row-listen {min-height: 800px;}
 
  }
 
