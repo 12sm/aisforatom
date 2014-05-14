@@ -103,7 +103,8 @@ opacity:0;
 -moz-transition-duration: 0.4s;
 -o-transition-duration: 0.4s;
 transition-duration: 0.4s;
-background:#fff;	
+background:#fff;
+opacity:0;	
 }
 
 body.home .blog-link.Instagram:hover .caption {opacity: 0.5}
