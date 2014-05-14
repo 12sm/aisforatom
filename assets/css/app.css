@@ -168,6 +168,13 @@ padding: 15px;
 
 body.home .blog-item-container .Instagram:hover .caption {opacity: 0.8}
 
+/* About */
+
+/* Listen */
+
+.row-listen h1 {color:#fff;}
+.row-listen p {color:#ccc;}
+
 
 /* ==========================================================================
    About
