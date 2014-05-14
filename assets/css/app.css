@@ -110,11 +110,11 @@ font-size: 25px;
 }
 
 body.home .blog-link.Twitter {padding: 10px 10px 48.5% 10px; background-color: rgba(255, 255, 255, 0.8);}
-body.home .blog-item-container .Twitter .post-footer {backgorund:#00aced;}
+body.home .blog-item-container .Twitter .post-footer {border-bottom: 75px solid #00aced;}
 
 
 body.home .blog-link.Instagram {background-color:transparent;}
-body.home .blog-item-container .Instagram .post-footer {background:#517fa4;}
+body.home .blog-item-container .Instagram .post-footer {border-bottom: 75px solid #517fa4;}
 body.home .blog-item-container .Instagram .caption {
 width: 100%;
 display: block;
