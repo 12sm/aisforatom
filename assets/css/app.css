@@ -63,7 +63,7 @@ padding-left: 60px;
 }
 
 nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-color: #ccc;
+color: #ccc!important;
 background-color: transparent;
 }
 
@@ -194,11 +194,14 @@ body.about .sidebar {display:none;}
    Footer
    ========================================================================== */
 
-.content-info { }
+.content-info {
+background: #313131;
+padding: 15px;
+}
 
-#social ul {margin:0px; padding:0px; list-style: none;}
-#social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
-#social li a {padding: 10px;}
+.social ul {margin:0px; padding:0px; list-style: none;}
+.social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
+.social li a {padding: 10px;}
 
 
 
