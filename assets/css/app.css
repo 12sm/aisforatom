@@ -53,7 +53,7 @@ font-weight: 700;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-color: #ccc!important;
+color: #fff000!important;
 background-color: transparent;
 }
 
@@ -172,7 +172,8 @@ body.home .blog-item-container .Instagram:hover .caption {opacity: 0.8}
 
 /* Listen */
 
-.row-listen h1 {color:#fff;}
+.row-listen h1 {color:#fff; text-shadow: 0px 2px 10px rgba(255, 255, 255, 1);}
+.row-listen h3 {color: #fff000;}
 .row-listen p {color:#ccc;}
 
 .row-listen .player {text-align:center;}
