@@ -170,6 +170,13 @@ padding: 15px;
 
 body.home .blog-item-container .Instagram:hover .caption {opacity: 0.8}
 
+
+/* ==========================================================================
+   About
+   ========================================================================== */
+
+
+
 /* ==========================================================================
    Sidebar
    ========================================================================== */
@@ -227,6 +234,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 786px) {
+
+body.about {background:transparent url(../img/bg3.jpg); background-attachment: fixed; background-size:100%}
 
 .navbar-nav {
 float: right;
