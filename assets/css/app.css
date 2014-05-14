@@ -92,9 +92,29 @@ display:block;
 
 body.home .blog-item-container {margin: 15px 0px!important;}
 
-body.home .blog-link.Twitter {padding: 10px 10px 48.5% 10px; background-color: rgba(255, 255, 255, 0.8);}
-body.home .blog-link.Instagram {background-color:transparent;}
+body.home .blog-item-container .post-footer {
+position: absolute;
+bottom: 15px;
+width: 50px;
+height: 0px;
+padding: 0px;
+right: 15px;
+color: #fff;
+border-left: 75px solid transparent;
+border-bottom: 75px solid gray;	
+}
 
+body.home .blog-item-container .post-footer .fa {
+margin: 40px 0px 0px -32px;
+font-size: 25px;
+}
+
+body.home .blog-link.Twitter {padding: 10px 10px 48.5% 10px; background-color: rgba(255, 255, 255, 0.8);}
+body.home .blog-item-container .Twitter .post-footer {backgorund:#00aced;}
+
+
+body.home .blog-link.Instagram {background-color:transparent;}
+body.home .blog-item-container .Instagram .post-footer {background:#517fa4;}
 body.home .blog-item-container .Instagram .caption {
 width: 100%;
 display: block;
