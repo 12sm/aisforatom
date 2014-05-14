@@ -96,15 +96,17 @@ body.home .blog-link.Twitter {padding: 10px 10px 48.5% 10px; background-color: r
 body.home .blog-link.Instagram {background-color:transparent;}
 
 body.home .blog-item-container .Instagram .caption {
-width:100%;
-display:block;
-opacity:0;
+width: 100%;
+display: block;
+opacity: 0;
 -webkit-transition-duration: 0.4s;
 -moz-transition-duration: 0.4s;
 -o-transition-duration: 0.4s;
 transition-duration: 0.4s;
-background:#fff;
-opacity:0;	
+background: #fff;
+position: relative;
+top: 0px;
+padding: 15px;
 }
 
 body.home .blog-item-container .Instagram:hover .caption {opacity: 0.5}
