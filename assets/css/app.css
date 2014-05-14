@@ -19,7 +19,12 @@ body {font-family: "proxima-nova"!important;}
 
 /* .banner.affix {position:fixed!important; top:30px!important; } */
 
+
 h1, h2 {font-weight: 600!important;}
+
+
+h1 {font-size:76px;}
+h2 {font-size: 50px;}
 
 h3, h4 {font-weight:700!important;}
 
@@ -85,7 +90,7 @@ body.home .blog-link {
 display:block;
 } 
 
-body.home .blog-link.Twitter {padding-bottom: 48.5%; background-color: rgba(255, 255, 255, 0.5);}
+body.home .blog-link.Twitter {padding-bottom: 48.5%; background-color: rgba(255, 255, 255, 0.8);}
 body.home .blog-link.Instagra {background-color:transparent;}
 
 /* ==========================================================================
