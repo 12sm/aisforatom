@@ -331,14 +331,14 @@ padding: 10px 10px 12% 10px;
 }
 
 .sidebar .blog-item-container .Twitter .caption {
-font-size: 12px;
+font-size: 12px!important;
 color: #313131;
 width: 95%;
 }
 
 /* ---- $Email Signup ----- */
 
-.sidebar .text-6 img {width: 100%;padding-bottom: 4%;}
+.sidebar .text-6 img {width: 100%!important;padding-bottom: 4%;}
 
 /* ==========================================================================
    Posts
