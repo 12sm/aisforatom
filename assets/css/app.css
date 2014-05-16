@@ -202,9 +202,9 @@ float: right;
 }
 
 body.home a.btn-primary:hover {
-color: #444;
--webkit-filter: brightness(.2);
-filter: brightness(.2);
+color: #070707;
+-webkit-filter: brightness(1.1);
+filter: brightness(1.1);
 }
 
 
