@@ -338,7 +338,9 @@ color: #1D1D1D;
 width: 95%;
 }
 
-.sidebar .blog-item-container .Twitter .post-footer {border-bottom: 57px solid #00aced;}
+.blog-item-container {margin: 5px 0px!important;}
+
+.sidebar .blog-item-container .Twitter .post-footer {border-bottom: 57px solid #00aced;bottom: 5px;}
 .sidebar .blog-item-container .post-footer {border-left: 57px solid transparent;}
 .sidebar .blog-item-container .post-footer .fa {margin: 30px 0px 0px -25px;font-size: 20px;}
 
