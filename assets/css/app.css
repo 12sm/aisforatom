@@ -190,8 +190,8 @@ padding: 15px;
 
 .row-listen .player {text-align:center;}
 
-btn-buy-music {
-	
+body.home .btn-primary {
+	background: transparent url(../img/buy-music-btn-bg.jpg);
 }
 
 
