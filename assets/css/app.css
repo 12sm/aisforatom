@@ -242,7 +242,15 @@ background: transparent url(../img/internal-bg.jpg);
 background-attachment: fixed;
 background-size: 100%;
 }
- 
+
+.categorychecklist {
+list-style: none;
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+}
+
+.categorychecklist .li {float:left; display:inline;}
    
 /* ==========================================================================
    $Contact
