@@ -278,7 +278,8 @@ border: 2px solid #999;
 cursor: pointer;
 }
 
-body.blog label.active {background:#fff000;}
+body.blog label.active,
+body.blog label.hover {background:#fff000;}
 
 .categorychecklist {
 list-style: none;
