@@ -243,7 +243,7 @@ background-attachment: fixed;
 background-size: 100%;
 }
 
-body.blog .wpv-view-layout-1 {clear:both;}
+body.blog #wpv-view-layout-1 {clear:both;}
 
 .categorychecklist {
 list-style: none;
