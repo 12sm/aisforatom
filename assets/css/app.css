@@ -295,7 +295,7 @@ body.shows .sidebar {display:none;}
    ========================================================================== */
  
 body.blog,
-body.feed,
+body.blog,
 body.archive,
 body.single {
 background: transparent url(../img/internal-bg.jpg);
@@ -303,16 +303,16 @@ background-attachment: fixed;
 background-size: 100%;
 }
 
-body.feed #wpv-view-layout-1 {clear:both;}
+body.blog #wpv-view-layout-1 {clear:both;}
 
-body.feed .filter-label {
+body.blog .filter-label {
 float: left;
 width: 100px;
 display: inline;
 margin: 0px;	
 }
 
-body.feed label {
+body.blog label {
 display: inline-block;
 margin-bottom: 5px;
 font-weight: bold;
@@ -324,8 +324,8 @@ border: 2px solid #999;
 cursor: pointer;
 }
 
-body.feed label.active,
-body.feed label.hover {background:#fff000;}
+body.blog label.active,
+body.blog label.hover {background:#fff000;}
 
 .categorychecklist {
 list-style: none;
