@@ -224,6 +224,8 @@ background: transparent url(../img/internal-bg.jpg);
 background-attachment: fixed;
 background-size: 100%;
 }
+
+body.shows .sidebar {display:none;}
    
 /* ==========================================================================
    $Contact
@@ -243,7 +245,11 @@ background-size: 100%;
 
 aside.sidebar {
 margin: 0!important;
-float: left!important;
+float: right!important;
+margin-top: 10%!important;
+margin-right: 3%!important;
+width: 30%;
+background: rgba(255,255,255,.9);
 }
 
 
