@@ -266,6 +266,18 @@ display: inline;
 margin: 0px;	
 }
 
+body.blog label {
+display: inline-block;
+margin-bottom: 5px;
+font-weight: bold;
+padding: 2px 20px;
+background: #ccc;
+margin: 0px 10px;
+border-radius: 8px;
+border: 2px solid #999;
+cursor: pointer;
+}
+
 .categorychecklist {
 list-style: none;
 list-style-type: none;
