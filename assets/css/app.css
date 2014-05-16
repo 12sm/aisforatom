@@ -256,10 +256,9 @@ background: rgba(255,255,255,.9);
 
 /* ---- $Facebook ----- */
 
-html#facebook {
-background-color: red!important;
+.text-3 div.textwidget {
+background-color: red;
 }
-
 
 /* ==========================================================================
    Posts
