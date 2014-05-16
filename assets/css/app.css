@@ -478,6 +478,10 @@ width:100%;
 float:none;	
 }
 
+.wrap {
+margin-top: 100px;
+}
+
 
 }
 
@@ -493,7 +497,7 @@ float: none;
 .navbar-nav {
 float: right;
 margin: 0;
-width:100%;
+width:auto;
 }
 
 aside.sidebar {
