@@ -245,11 +245,20 @@ background-size: 100%;
 
 body.blog #wpv-view-layout-1 {clear:both;}
 
+body.blog .filter-label {
+float: left;
+width: 100px;
+display: inline;
+margin: 0px;	
+}
+
 .categorychecklist {
 list-style: none;
 list-style-type: none;
 margin: 0px;
 padding: 0px;
+float:left;
+display:inline;
 }
 
 .categorychecklist li {float:left; display:inline;}
