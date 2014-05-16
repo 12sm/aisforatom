@@ -229,7 +229,7 @@ body.about .sidebar {display:none;}
 body.photos {
 background: transparent url(../img/internal-bg.jpg);
 background-attachment: fixed;
-background-size: 100%;
+background-size: cover;
 }
 
 /* ==========================================================================
@@ -239,7 +239,7 @@ background-size: 100%;
 body.videos {
 background: transparent url(../img/internal-bg.jpg);
 background-attachment: fixed;
-background-size: 100%;
+background-size: cover;
 }
 
 dd.tubepress_meta_title, dd.tubepress_meta_title a, dd.tubepress_meta_title a:hover {
@@ -282,7 +282,7 @@ display: none;
 body.shows {
 background: transparent url(../img/internal-bg.jpg);
 background-attachment: fixed;
-background-size: 100%;
+background-size: cover;
 }
 
 body.shows .sidebar {display:none;}
@@ -304,7 +304,7 @@ body.archive,
 body.single {
 background: transparent url(../img/internal-bg.jpg);
 background-attachment: fixed;
-background-size: 100%;
+background-size: cover;
 }
 
 body.blog #wpv-view-layout-1 {clear:both;}
@@ -354,7 +354,7 @@ display:inline;
 body.contact {
 background: transparent url(../img/internal-bg.jpg);
 background-attachment: fixed;
-background-size: 100%;
+background-size: cover;
 }
 
 /* ==========================================================================
@@ -451,7 +451,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (min-width: 768px) {
 
 
-body.about {background:transparent url(../img/bg3.jpg); background-attachment: fixed; background-size:100%}
+body.about {background:transparent url(../img/bg3.jpg); background-attachment: fixed; background-size:cover}
 
 
 ul#menu-primary-navigation li {
