@@ -440,15 +440,11 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 }
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 786px) {
+@media (min-width: 768px) {
 
 
 body.about {background:transparent url(../img/bg3.jpg); background-attachment: fixed; background-size:100%}
 
-.navbar-nav {
-float: right;
-margin: 0;
-}
 
 ul#menu-primary-navigation li {
 font-size: 10px;
@@ -458,9 +454,32 @@ font-size: 10px;
 font-size: 19px;
 }
 
+.navbar-nav {
+float: none;
+margin: 0px auto;
+width: 695px
+}
+
 .row-slider, .row-blog, .row-about, .row-listen {min-height: 800px;}
 
  }
+
+@media (min-width:769px) and (max-width: 991px) {
+
+.navbar-brand {
+float: none;
+margin: 0px auto;
+width: 320px;	
+display:block;
+}
+
+.navbar-header {
+width:100%;
+float:none;	
+}
+
+
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -471,6 +490,10 @@ margin: 0px auto!important;
 float: none;
 }
 
+.navbar-nav {
+float: right;
+margin: 0;
+}
 
 aside.sidebar {
 margin-right: 3%!important;
