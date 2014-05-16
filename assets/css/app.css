@@ -223,6 +223,10 @@ background-size: 100%;
 
 .sidebar { }
 
+aside.sidebar {
+margin: 0!important;
+float: right!important;
+}
 
 
 /* ==========================================================================
