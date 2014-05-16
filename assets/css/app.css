@@ -447,6 +447,14 @@ float: right;
 margin: 0;
 }
 
+ul#menu-primary-navigation li {
+font-size: 10px;
+}
+
+.navbar-default .navbar-brand {
+font-size: 19px;
+}
+
 .row-slider, .row-blog, .row-about, .row-listen {min-height: 800px;}
 
  }
@@ -458,14 +466,6 @@ margin: 0;
 max-width: 85%;
 margin: 0px auto!important;
 float: none;
-}
-
-ul#menu-primary-navigation li {
-font-size: 10px;
-}
-
-.navbar-default .navbar-brand {
-font-size: 19px;
 }
 
 
