@@ -209,13 +209,31 @@ background-size: 100%;
    $Videos
    ========================================================================== */
 
+body.videos {
+background: transparent url(../img/internal-bg.jpg);
+background-attachment: fixed;
+background-size: 100%;
+}
+
 /* ==========================================================================
    $Shows
    ========================================================================== */
+ 
+body.shows {
+background: transparent url(../img/internal-bg.jpg);
+background-attachment: fixed;
+background-size: 100%;
+}
    
 /* ==========================================================================
    $Contact
    ========================================================================== */
+
+body.contact {
+background: transparent url(../img/internal-bg.jpg);
+background-attachment: fixed;
+background-size: 100%;
+}
 
 /* ==========================================================================
    Sidebar
