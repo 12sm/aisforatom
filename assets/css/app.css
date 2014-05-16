@@ -242,7 +242,6 @@ background-attachment: fixed;
 background-size: 100%;
 }
 
-<<<<<<< HEAD
 dd.tubepress_meta_title, dd.tubepress_meta_title a, dd.tubepress_meta_title a:hover {
 font-size: 12px;
 font-weight: 700;
@@ -269,10 +268,9 @@ color: #B1AA3C;
 }
 
 dd.tubepress_meta_runtime {display: none;}
-=======
+
 .tubepress_normal_embedded_wrapper {width:auto!important;}
 
->>>>>>> FETCH_HEAD
 
 /* ==========================================================================
    $Shows
