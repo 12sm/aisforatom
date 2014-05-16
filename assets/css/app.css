@@ -51,6 +51,10 @@ background-color: #313131;
 border:none!important;
 }
 
+.navbar {
+border-radius: 0px;
+}
+
 .navbar-default .navbar-nav>li>a {
 color: #fff;
 text-transform:uppercase;
