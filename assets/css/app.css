@@ -33,6 +33,8 @@ h3, h4 {font-weight:700!important;}
    Header
    ========================================================================== */
 
+header .container-fluid {max-width:1170px;}
+
 .banner {
 z-index: 1000;
 position: fixed;
