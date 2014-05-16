@@ -33,6 +33,8 @@ h3, h4 {font-weight:700!important;}
    Header
    ========================================================================== */
 
+header .container-fluid {max-width:1170px;}
+
 .banner {
 z-index: 1000;
 position: fixed;
@@ -240,6 +242,7 @@ background-attachment: fixed;
 background-size: 100%;
 }
 
+<<<<<<< HEAD
 dd.tubepress_meta_title, dd.tubepress_meta_title a, dd.tubepress_meta_title a:hover {
 font-size: 12px;
 font-weight: 700;
@@ -266,6 +269,10 @@ color: #B1AA3C;
 }
 
 dd.tubepress_meta_runtime {display: none;}
+=======
+.tubepress_normal_embedded_wrapper {width:auto!important;}
+
+>>>>>>> FETCH_HEAD
 
 /* ==========================================================================
    $Shows
@@ -351,8 +358,6 @@ aside.sidebar {
 margin: 0!important;
 float: right!important;
 margin-top: 10%!important;
-margin-right: 3%!important;
-width: 30%;
 background: rgba(255,255,255,.9);
 }
 
@@ -436,11 +441,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 786px) {
 
-.col {
-max-width: 85%;
-margin: 0px auto!important;
-float: none;
-}
 
 body.about {background:transparent url(../img/bg3.jpg); background-attachment: fixed; background-size:100%}
 
@@ -454,7 +454,32 @@ margin: 0;
  }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
+@media (min-width: 992px) {
+
+.col {
+max-width: 85%;
+margin: 0px auto!important;
+float: none;
+}
+
+ul#menu-primary-navigation li {
+font-size: 10px;
+}
+
+
+aside.sidebar {
+margin-right: 3%!important;
+width: 30%;	
+}
+
+ }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) {
+
+ul#menu-primary-navigation li {
+letter-spacing: 4px;
+font-size: 12px;
+}
+
+ }

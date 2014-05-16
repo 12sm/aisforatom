@@ -32,6 +32,8 @@ var Roots = {
 		$('.selectit').mousedown( function($this) {
 			$(this).toggleClass('active');
 		});
+	
+	$(".tubepress_container").fitVids();
       
     }
   },
