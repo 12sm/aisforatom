@@ -96,7 +96,7 @@ function roots_gallery($attr) {
         $image = wp_get_attachment_link($id, $size, true, false);
         break;
     }
-    $output .= ($i % $columns == 0) ? '<div class="row gallery-row">': '';
+    //$output .= ($i % $columns == 0) ? '<div class="row gallery-row">': '';
     $output .= '<div class="' . $grid .'">' . $image;
 
     if (trim($attachment->post_excerpt)) {
@@ -105,7 +105,7 @@ function roots_gallery($attr) {
 
     $output .= '</div>';
     $i++;
-    $output .= ($i % $columns == 0) ? '</div>' : '';
+  //  $output .= ($i % $columns == 0) ? '</div>' : '';
   }
 
   $output .= ($i % $columns != 0 ) ? '</div>' : '';
