@@ -195,6 +195,7 @@ body.home .btn-primary {
 	background-size: cover;
 	border: none;
 	display: block;
+	transition:color .3s ease, filter .3s ease, -webkit-filter .3s ease;
 }
 
 div.col-sm-6.itunes {
