@@ -41,7 +41,7 @@ function roots_gallery($attr) {
     'icontag'    => '',
     'captiontag' => '',
     'columns'    => 4,
-    'size'       => 'gallery',
+    'size'       => 'gallery-thumb',
     'include'    => '',
     'exclude'    => '',
     'link'       => ''
