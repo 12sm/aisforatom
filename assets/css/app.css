@@ -410,11 +410,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 786px) {
 
-.col {
-max-width: 85%;
-margin: 0px auto!important;
-float: none;
-}
 
 body.about {background:transparent url(../img/bg3.jpg); background-attachment: fixed; background-size:100%}
 
@@ -429,6 +424,12 @@ margin: 0;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+.col {
+max-width: 85%;
+margin: 0px auto!important;
+float: none;
+}
 
 aside.sidebar {
 margin-right: 3%!important;
