@@ -46,6 +46,7 @@ body.logged-in .banner {top:30px;}
 
 .navbar-default {
 background-color: #313131;
+border:none!important;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -58,7 +59,6 @@ font-weight: 700;
 color: #fff000!important;
 background-color: transparent;
 }
-
 
 .navbar-default .navbar-brand {
 color: #fff;
@@ -272,7 +272,7 @@ padding-top: 5%;
 
 /* ---- $Email Signup ----- */
 
-.sidebar .text-6 img {width: 100%;padding-bottom: 5%;}
+.sidebar .text-6 img {width: 100%;padding-bottom: 0%;}
 
 /* ==========================================================================
    Posts
