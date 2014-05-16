@@ -256,26 +256,6 @@ background: rgba(255,255,255,.9);
 
 /* ---- $Facebook ----- */
 
-html#facebook {
-background-color: red;
-} 
-
-._4s7c {
-border: 1px solid #FFF; 
-border-top-color: #FFFFFF;
-}
-
-.pluginBoxDivider {
-border-top: 1px solid #505050;
-}
-
-.pluginBoxDividerGray {
-border-top-color: transparent;
-}
-
-div.clearfix.pvs.phm {
-display: none;
-}
 
 
 
