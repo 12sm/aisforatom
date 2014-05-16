@@ -291,7 +291,7 @@ body.shows .sidebar {display:none;}
 #artistDataShows td {color: #5A5A5A!important;}
    
 table#artistDataShows {
-color: red;
+color: red!important;
 }   
    
 /* ==========================================================================
