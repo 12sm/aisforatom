@@ -266,6 +266,9 @@ background: rgba(255,255,255,.9);
 .sidebar .customisable-border.thm-dark, .thm-dark .customisable-border {border-color: transparent!important;}
 .sidebar .timeline {border-radius: 0px!important;}
 
+/* ---- $Email Signup ----- */
+
+.sidebar .text-6 img {width: 100%;padding-bottom: 4%;}
 
 /* ==========================================================================
    Posts
