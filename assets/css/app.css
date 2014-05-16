@@ -291,6 +291,9 @@ display:inline;
 }
 
 .categorychecklist li {float:left; display:inline;}
+
+.next {float:right;}
+.previous {float:left;}
    
 /* ==========================================================================
    $Contact
