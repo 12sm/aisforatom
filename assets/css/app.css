@@ -192,6 +192,13 @@ padding: 15px;
 
 body.home .btn-primary {
 	background: transparent url(../img/buy-music-btn-bg.jpg);
+	background-size: cover;
+	border: none;
+	display: block;
+}
+
+div.col-sm-6.itunes {
+float: right;
 }
 
 
