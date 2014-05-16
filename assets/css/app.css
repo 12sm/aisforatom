@@ -329,7 +329,7 @@ display: none;
 
 .sidebar .blog-link.Twitter {
 padding: 10px 10px 12% 10px;
-background-color: rgba(194, 194, 194, 1);
+rgba(238, 238, 238, 1);
 }
 
 .sidebar .blog-item-container .Twitter .caption {
@@ -338,7 +338,7 @@ color: #1D1D1D;
 width: 95%;
 }
 
-.blog-item-container {margin: 5px 0px!important;}
+.sidebar .blog-item-container {margin: 5px 0px!important;}
 
 .sidebar .blog-item-container .Twitter .post-footer {border-bottom: 57px solid #00aced;bottom: 5px;}
 .sidebar .blog-item-container .post-footer {border-left: 57px solid transparent;}
