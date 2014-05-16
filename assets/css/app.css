@@ -251,7 +251,9 @@ body.shows .sidebar {display:none;}
    $Blog
    ========================================================================== */
  
-body.blog {
+body.blog,
+body.archive,
+body.single {
 background: transparent url(../img/internal-bg.jpg);
 background-attachment: fixed;
 background-size: 100%;
@@ -294,6 +296,8 @@ display:inline;
 
 .next {float:right;}
 .previous {float:left;}
+
+.blog-footer {padding:15px;}
    
 /* ==========================================================================
    $Contact
