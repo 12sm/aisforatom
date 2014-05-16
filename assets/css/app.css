@@ -433,6 +433,11 @@ margin: 0px auto!important;
 float: none;
 }
 
+ul#menu-primary-navigation li {
+font-size: 10px;
+}
+
+
 aside.sidebar {
 margin-right: 3%!important;
 width: 30%;	
@@ -441,4 +446,11 @@ width: 30%;
  }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) {
+
+ul#menu-primary-navigation li {
+letter-spacing: 4px;
+font-size: 12px;
+}
+
+ }
