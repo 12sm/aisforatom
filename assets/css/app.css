@@ -100,7 +100,7 @@ body.home .page-header {display:none;}
    Homepage
    ========================================================================== */
    
-/*----- LayerSlider -----*/
+/*----- $LayerSlider -----*/
 
 .row-slider h1,
 .row-slider h2,
@@ -108,7 +108,7 @@ body.home .page-header {display:none;}
 .row-slider h4 {color:#fff;}
 
 
-/*----- Blog -----*/
+/*----- $Blog -----*/
 
 .blog-item {}
 
@@ -179,16 +179,20 @@ padding: 15px;
 
 .blog-item-container .Instagram:hover .caption {opacity: 0.8}
 
-/*----- About -----*/
+/*----- $About -----*/
 
 
-/*----- Listen -----*/
+/*----- $Listen -----*/
 
 .row-listen h1 {color:#fff;}
 .row-listen h3 {color: #fff000;margin-top:0;}
 .row-listen p {color:#ccc;}
 
 .row-listen .player {text-align:center;}
+
+btn-buy-music {
+	
+}
 
 
 /* ==========================================================================
