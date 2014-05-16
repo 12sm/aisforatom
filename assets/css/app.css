@@ -468,7 +468,7 @@ width: 695px
 
 .navbar-brand {
 float: none;
-margin: 0px auto;
+margin: 0px auto!important;
 width: 320px;	
 display:block;
 }
