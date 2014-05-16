@@ -110,19 +110,19 @@ body.home .page-header {display:none;}
 
 /*----- Blog -----*/
 
-body.home .blog-item {}
+.blog-item {}
 
-body.home .blog-link {
+.blog-link {
 display:block;
 height:0px;
 padding-bottom:100%%; 
 } 
 
-body.home .blog-link:hover {text-decoration:none; color: #000;}
+.blog-link:hover {text-decoration:none; color: #000;}
 
-body.home .blog-item-container {margin: 15px 0px!important;}
+.blog-item-container {margin: 15px 0px!important;}
 
-body.home .blog-item-container .post-footer {
+.blog-item-container .post-footer {
 position: absolute;
 bottom: 15px;
 width: 50px;
@@ -134,12 +134,12 @@ border-left: 75px solid transparent;
 border-bottom: 75px solid gray;	
 }
 
-body.home .blog-item-container .post-footer .fa {
+.blog-item-container .post-footer .fa {
 margin: 40px 0px 0px -32px;
 font-size: 25px;
 }
 
-body.home .blog-link.Blog {
+.blog-link.Blog {
 padding: 10px 10px 50% 10px;
 background-color: rgba(255, 255, 255, 0.8);
 -webkit-transition-duration: 0.4s;
@@ -147,7 +147,7 @@ background-color: rgba(255, 255, 255, 0.8);
 -o-transition-duration: 0.4s;
 transition-duration: 0.4s;
 }
-body.home .blog-link.Twitter {
+.blog-link.Twitter {
 padding: 10px 10px 42% 10px;
 background-color: rgba(255, 255, 255, 0.8);
 -webkit-transition-duration: 0.4s;
@@ -155,15 +155,15 @@ background-color: rgba(255, 255, 255, 0.8);
 -o-transition-duration: 0.4s;
 transition-duration: 0.4s;
 }
-body.home .blog-link.Twitter:hover,
-body.home .blog-link.Blog:hover {background-color: rgba(255, 255, 255, 0.9);}
-body.home .blog-item-container .Twitter .post-footer {border-bottom: 75px solid #00aced;}
-body.home .blog-item-container .Twitter .caption {font-size:16px; color:#313131;}
+.blog-link.Twitter:hover,
+.blog-link.Blog:hover {background-color: rgba(255, 255, 255, 0.9);}
+.blog-item-container .Twitter .post-footer {border-bottom: 75px solid #00aced;}
+.blog-item-container .Twitter .caption {font-size:16px; color:#313131;}
 
 
-body.home .blog-link.Instagram {background-color:transparent;}
-body.home .blog-item-container .Instagram .post-footer {border-bottom: 75px solid #517fa4;}
-body.home .blog-item-container .Instagram .caption {
+.blog-link.Instagram {background-color:transparent;}
+.blog-item-container .Instagram .post-footer {border-bottom: 75px solid #517fa4;}
+.blog-item-container .Instagram .caption {
 width: 100%;
 display: block;
 opacity: 0;
@@ -177,7 +177,7 @@ top: 0px;
 padding: 15px;
 }
 
-body.home .blog-item-container .Instagram:hover .caption {opacity: 0.8}
+.blog-item-container .Instagram:hover .caption {opacity: 0.8}
 
 /*----- About -----*/
 
