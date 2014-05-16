@@ -326,6 +326,9 @@ padding-top: 5%;
 display: none;
 }
 
+.sidebar .blog-link.Twitter {
+padding: 10px 10px 20% 10px;
+
 /* ---- $Email Signup ----- */
 
 .sidebar .text-6 img {width: 100%;padding-bottom: 4%;}
