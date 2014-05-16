@@ -493,6 +493,7 @@ float: none;
 .navbar-nav {
 float: right;
 margin: 0;
+width:100%;
 }
 
 aside.sidebar {
