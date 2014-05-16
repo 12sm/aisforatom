@@ -263,8 +263,8 @@ background: rgba(255,255,255,.9);
 
 /* ---- $Twitter Embed ----- */
 
-.customisable-border.thm-dark, .thm-dark .customisable-border {border-color: transparent!important;}
-.timeline {border-radius: 0px!important;}
+.sidebar .customisable-border.thm-dark, .thm-dark .customisable-border {border-color: transparent!important;}
+.sidebar .timeline {border-radius: 0px!important;}
 
 
 /* ==========================================================================
