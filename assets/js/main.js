@@ -42,7 +42,7 @@ var Roots = {
             itemSelector: '.blog-item',
             columnWidth: '.blog-item',
             transitionDuration: 0
-        }); */
+        }); */	
         
         var ar = $('.masonry').children();
         ar.sort(function(a,b){
@@ -59,7 +59,7 @@ var Roots = {
 	    $('.masonry').masonry({ 
             itemSelector: '.blog-item',
             columnWidth: '.blog-item',
-            transitionDuration: 0
+            transitionDuration: 0,
             animate: true
          });
       
