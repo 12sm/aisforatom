@@ -466,6 +466,10 @@ ul#menu-primary-navigation li {
 font-size: 10px;
 }
 
+.navbar-default .navbar-brand {
+font-size: 19px;
+}
+
 
 aside.sidebar {
 margin-right: 3%!important;
@@ -480,6 +484,10 @@ width: 30%;
 ul#menu-primary-navigation li {
 letter-spacing: 4px;
 font-size: 12px;
+}
+
+.navbar-default .navbar-brand {
+font-size: 26px;
 }
 
  }
