@@ -240,6 +240,9 @@ background-attachment: fixed;
 background-size: 100%;
 }
 
+.tubepress_normal_embedded_wrapper {width:auto!important;}
+
+
 /* ==========================================================================
    $Shows
    ========================================================================== */
@@ -324,8 +327,6 @@ aside.sidebar {
 margin: 0!important;
 float: right!important;
 margin-top: 10%!important;
-margin-right: 3%!important;
-width: 30%;
 background: rgba(255,255,255,.9);
 }
 
@@ -427,7 +428,14 @@ margin: 0;
  }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
+@media (min-width: 992px) {
+
+aside.sidebar {
+margin-right: 3%!important;
+width: 30%;	
+}
+
+ }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { }
