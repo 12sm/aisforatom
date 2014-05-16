@@ -317,10 +317,6 @@ width: 30%;
 background: rgba(255,255,255,.9);
 }
 
-section.widget {
-padding-top: 5%;
-}
-
 /* ---- $Social Feed View ----- */
 
 .sidebar form.wpv-filter-form.js-wpv-filter-form.js-wpv-filter-form-1.js-wpv-ajax-results-enabled {
@@ -346,7 +342,7 @@ width: 95%;
 
 /* ---- $Email Signup ----- */
 
-.sidebar .text-6 img {width: 100%!important;padding-bottom: 4%;}
+.sidebar .text-6 img {width: 100%!important;padding-top:4%;}
 
 /* ==========================================================================
    Posts
