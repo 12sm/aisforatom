@@ -55,6 +55,11 @@ text-transform:uppercase;
 font-weight: 700;
 }
 
+ul#menu-primary-navigation li {
+letter-spacing: 4px;
+font-size: 12px;
+}
+
 .navbar-default .navbar-nav>li>a:hover {
 color: #fff000!important;
 background-color: transparent;
