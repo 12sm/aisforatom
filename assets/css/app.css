@@ -254,6 +254,10 @@ width: 30%;
 background: rgba(255,255,255,.9);
 }
 
+section.widget {
+padding-top: 5%;
+}
+
 /* ---- $Facebook Embed ----- */
 
 .text-3 div.textwidget {background-color: #333!important;}
@@ -268,7 +272,7 @@ background: rgba(255,255,255,.9);
 
 /* ---- $Email Signup ----- */
 
-.sidebar .text-6 img {width: 100%;padding-bottom: 4%;}
+.sidebar .text-6 img {width: 100%;padding-bottom: 5%;}
 
 /* ==========================================================================
    Posts
