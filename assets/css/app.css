@@ -257,7 +257,7 @@ background: rgba(255,255,255,.9);
 /* ---- $Facebook ----- */
 
 html#facebook {
-background-color: red;
+background-color: red!important;
 }
 
 
