@@ -271,6 +271,9 @@ dd.tubepress_meta_runtime {display: none;}
 
 .tubepress_normal_embedded_wrapper {width:auto!important;}
 
+div.pagination {
+display: none;
+}
 
 /* ==========================================================================
    $Shows
