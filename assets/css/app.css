@@ -201,6 +201,12 @@ div.col-sm-6.itunes {
 float: right;
 }
 
+body.home a.btn-primary:hover {
+color: #444;
+-webkit-filter: brightness(.2);
+filter: brightness(.2);
+}
+
 
 /* ==========================================================================
    $About
