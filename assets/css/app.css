@@ -256,15 +256,15 @@ background: rgba(255,255,255,.9);
 
 /* ---- $Facebook Embed ----- */
 
-.text-3 div.textwidget {background-color: #333;}
-._4s7c {border: transparent;border-top-color: transparent;}
-.pluginBoxDivider {border-top: 1px solid #4B4B4B;}
-.pluginSkinDark a, .pluginSkinDark .uiHeader h3 {color: #cfcfcf;}
+.text-3 div.textwidget {background-color: #333!important;}
+._4s7c {border: transparent!important;border-top-color: transparent!important;}
+.pluginBoxDivider {border-top: 1px solid #4B4B4B!important;}
+.pluginSkinDark a, .pluginSkinDark .uiHeader h3 {color: #cfcfcf!important;}
 
 /* ---- $Twitter Embed ----- */
 
-.customisable-border.thm-dark, .thm-dark .customisable-border {border-color: transparent;}
-.timeline {border-radius: 0px;}
+.customisable-border.thm-dark, .thm-dark .customisable-border {border-color: transparent!important;}
+.timeline {border-radius: 0px!important;}
 
 
 /* ==========================================================================
