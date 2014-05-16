@@ -201,6 +201,8 @@ body.about .sidebar {display:none;}
 
 body.photos {
 background: transparent url(../img/internal-bg.jpg);
+background-attachment: fixed;
+background-size: 100%;
 }
 
 /* ==========================================================================
