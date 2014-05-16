@@ -320,17 +320,11 @@ section.widget {
 padding-top: 5%;
 }
 
-/* ---- $Facebook Embed ----- */
+/* ---- $Social Feed View ----- */
 
-.text-3 div.textwidget {background-color: #333!important;}
-._4s7c {border: transparent!important;border-top-color: transparent!important;}
-.pluginBoxDivider {border-top: 1px solid #4B4B4B!important;}
-.pluginSkinDark a, .pluginSkinDark .uiHeader h3 {color: #cfcfcf!important;}
-
-/* ---- $Twitter Embed ----- */
-
-.sidebar .customisable-border.thm-dark, .thm-dark .customisable-border {border-color: transparent!important;}
-.sidebar .timeline {border-radius: 0px!important;}
+.sidebar form.wpv-filter-form.js-wpv-filter-form.js-wpv-filter-form-1.js-wpv-ajax-results-enabled {
+display: none;
+}
 
 /* ---- $Email Signup ----- */
 
