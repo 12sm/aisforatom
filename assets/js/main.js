@@ -28,6 +28,10 @@ var Roots = {
 		      top: 600
 		   }
 		});
+		
+		$('.selectit').mousedown( function($this) {
+			$(this).toggleClass('active');
+		});
       
     }
   },
