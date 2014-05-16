@@ -1,5 +1,5 @@
 <header class="banner navbar navbar-default affix" role="banner" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
-  <div class="container">
+  <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
