@@ -7,7 +7,7 @@
    Base
    ========================================================================== */
 
-body {font-family: "proxima-nova"!important;}
+body {font-family: "proxima-nova", Helvetica, Arial, sans-serif!important;}
 
 .wrap {margin-top:50px;}
 .row-slider {background:transparent url(../img/bg1.jpg) top center no-repeat;}
