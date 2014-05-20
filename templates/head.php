@@ -22,7 +22,7 @@ http://12southmusic.com/
 
   <?php wp_head(); ?>
 
-  <script type="text/javascript" src="//use.typekit.net/edx4ftj.js"></script>
+<script type="text/javascript" src="//use.typekit.net/okq5cym.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   <link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
