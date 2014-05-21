@@ -303,7 +303,7 @@ color: red!important;
    ========================================================================== */
  
 body.blog,
-body.blog,
+body.pulse,
 body.archive,
 body.single {
 background: transparent url(../img/internal-bg.jpg);
@@ -311,16 +311,16 @@ background-attachment: fixed;
 background-size: cover;
 }
 
-body.blog #wpv-view-layout-1 {clear:both;}
+body.pulse #wpv-view-layout-1 {clear:both;}
 
-body.blog .filter-label {
+body.pulse .filter-label {
 float: left;
 width: 100px;
 display: inline;
 margin: 0px;	
 }
 
-body.blog label {
+body.pulse label {
 display: inline-block;
 margin-bottom: 5px;
 font-weight: bold;
@@ -332,8 +332,8 @@ border: 2px solid #999;
 cursor: pointer;
 }
 
-body.blog label.active,
-body.blog label.hover {background:#fff000;}
+body.pulse label.active,
+body.pulse label.hover {background:#fff000;}
 
 .categorychecklist {
 list-style: none;
@@ -469,7 +469,7 @@ font-size: 19px;
 .navbar-nav {
 float: none;
 margin: 0px auto;
-width: 695px
+width: 705px
 }
 
 .row-slider, .row-blog, .row-about, .row-listen {min-height: 800px;}
