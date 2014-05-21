@@ -423,11 +423,14 @@ width: 95%;
 .content-info {
 background: #313131;
 padding: 15px;
+color: #999;
 }
 
-.social ul {margin:0px; padding:0px; list-style: none;}
-.social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
-.social li a {padding: 10px;}
+.conten-info a {color:#999;}
+
+.social-nav ul {margin:0px; padding:0px; list-style: none;}
+.social-nav li {margin:0px; padding: 0px list-style:none; display: block; float:left; font-size: 18px;}
+.social-nav li a {padding: 10px;}
 
 
 
