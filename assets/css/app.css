@@ -169,7 +169,8 @@ transition-duration: 0.4s;
 .blog-link.Twitter:hover,
 .blog-link.Blog:hover {background-color: rgba(255, 255, 255, 0.9);}
 .blog-item-container .Twitter .post-footer {border-bottom: 75px solid #00aced;}
-.blog-item-container .Twitter .caption {font-size:16px; color:#313131;}
+.blog-item-container .Twitter .caption,
+.blog-item-container .Blog .caption {font-size:16px; color:#313131;}
 
 
 .blog-link.Instagram {background-color:transparent;}
@@ -385,7 +386,8 @@ padding: 10px 10px 12% 10px;
 rgba(238, 238, 238, 1);
 }
 
-.sidebar .blog-item-container .Twitter .caption {
+.sidebar .blog-item-container .Twitter .caption,
+.sidebar .blog-item-container .Blog .caption {
 font-size: 12px!important;
 color: #1D1D1D;
 width: 95%;
