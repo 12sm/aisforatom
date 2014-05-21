@@ -457,6 +457,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+.main {min-height:800px;}
+
 
 body.about {background:transparent url(../img/bg3.jpg); background-attachment: fixed; background-size:cover}
 
