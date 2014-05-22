@@ -490,6 +490,11 @@ color: #4E4E4E;
 
 p.credits a {
 color: #4E4E4E;
+transition:color ease.3s;
+}
+
+p.credits a:hover {
+color: #53bbeb;
 }
 
 /* ==========================================================================
