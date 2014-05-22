@@ -323,6 +323,8 @@ background-attachment: fixed;
 background-size: cover;
 }
 
+body.single .main {background: rgba(255,255,255,.8);}
+
 body.pulse #wpv-view-layout-1 {clear:both;}
 
 body.pulse .filter-label {
