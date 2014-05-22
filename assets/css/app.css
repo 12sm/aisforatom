@@ -371,7 +371,6 @@ background-size: cover;
 
 aside.sidebar {
 margin: 0!important;
-float: right!important;
 margin-top: 10%!important;
 background: rgba(255,255,255,.9);
 }
@@ -478,6 +477,10 @@ font-size: 19px;
 float: none;
 margin: 0px auto;
 width: 705px
+}
+
+aside.sidebar {
+float: right!important;
 }
 
 .row-slider, .row-blog, .row-about, .row-listen {min-height: 800px;}
