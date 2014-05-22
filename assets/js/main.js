@@ -41,15 +41,7 @@ var Roots = {
   home: {
     init: function() {
       // JavaScript to be fired on the home page
-      
-      /* var $container = $('.masonry');
-
-        $container.masonry({
-            itemSelector: '.blog-item',
-            columnWidth: '.blog-item',
-            transitionDuration: 0
-        }); */	
-        
+              
         var ar = $('.masonry').children();
         ar.sort(function(a,b){
 	        // Get a random number between 0 and 10
