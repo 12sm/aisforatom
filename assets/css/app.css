@@ -483,6 +483,15 @@ float: right;
 float: left;
 }
 
+p.credits {
+font-size: 12px;
+color: #4E4E4E;
+}
+
+p.credits a {
+color: #4E4E4E;
+}
+
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
