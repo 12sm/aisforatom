@@ -1,7 +1,7 @@
 <footer class="content-info container-fluid" role="contentinfo">
   <div class="row">
     <div class="col-lg-12">
-      <div class="row sidebar-footer">
+    <div class="row sidebar-footer">
       	<?php dynamic_sidebar('sidebar-footer'); ?>
     </div>
     <div class="row footer-nav">  
@@ -12,14 +12,16 @@
   ?>
     </div>
          
-      <div id="social" class="row social-nav">
+  <div id="social" class="row social-nav col-sm-6">
   <?php
      if (has_nav_menu('social_navigation')) :
        wp_nav_menu(array('theme_location' => 'social_navigation', 'menu_class' => ''));
      endif;
   ?>
   </div>
+  <div class=:"col-sm-6 credits">
       <p class="credits">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>  |  <a href="http://12southmusic.com/" target="_blank">built by 12SM</a></p>
+	  </div>
     </div>
   </div>
 </footer>
