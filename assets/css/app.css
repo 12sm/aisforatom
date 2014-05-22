@@ -391,9 +391,12 @@ background: rgba(255,255,255,.9);
 display: none;
 }
 
-.sidebar .blog-link.Twitter {
-padding: 10px 10px 12% 10px;
-rgba(238, 238, 238, 1);
+.sidebar .blog-link.Twitter,
+.sidebar .blog-link.Blog,
+.sidebar .blog-link.Instagram {
+padding: 10px 10px 16% 10px;
+background: rgba(238, 238, 238, 1);
+overflow:hidden;
 }
 
 .sidebar .blog-item-container .Twitter .caption,
