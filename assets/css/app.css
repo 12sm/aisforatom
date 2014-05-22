@@ -475,6 +475,14 @@ color: yellow;
 text-decoration: none;
 }
 
+#social {
+float: right;
+}
+
+.col-sm-6.credits {
+float: left;
+}
+
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
