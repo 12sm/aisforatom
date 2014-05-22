@@ -486,6 +486,7 @@ float: left;
 p.credits {
 font-size: 12px;
 color: #4E4E4E;
+margin-bottom:0px;
 }
 
 p.credits a {
